@@ -53,7 +53,7 @@ class LifeCellGridMediator:
         self.cells[x][y].set_status(int(above + below + left + right))
 
     def print_out(self):
-        print("clock at ", self.clock, " seconds")
+        print(f"clock at {self.clock} seconds")
         for y in range(self.maxy):
             line = ""
             for x in range(self.maxx):
